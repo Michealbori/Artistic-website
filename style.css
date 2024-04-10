@@ -1,0 +1,463 @@
+
+@import url('https://fonts.googleapis.com/css2?family=Alex+Brush&family=Cedarville+Cursive&family=Lobster&family=Noto+Serif:ital,wght@0,100..900;1,100..900&family=WindSong:wght@400;500&display=swap');
+
+*
+{
+    background-color: #121C36;
+    color: #fff;
+}
+
+
+.login-btn
+{
+        text-decoration: none;
+        color: #fff;
+        border: 2px solid #fff;
+        padding: 10px 15px 10px 15px;
+        border-radius: 5px;
+}
+
+.Hero-Wraper
+{
+    display: flex;
+    justify-content: space-around;
+    padding: 6em;
+}
+
+.hero-text-Section h4
+{
+    font-family: "Alex Brush", cursive;
+    font-weight: 900;
+    font-size: 5em;
+}
+
+.hero-text-Section p
+{
+    padding: 20px 0 20px 0;
+    font-family: "Noto Serif", serif;
+}
+
+#firstBtn
+{
+     background: rgb(247,108,103);
+background: linear-gradient(90deg, rgba(247,108,103,1) 35%, rgba(252,78,136,1) 100%); 
+padding: 10px 10px 10px 10px;
+border: none;
+border-radius: 5px;
+font-weight: 700;
+margin: 0 30px 0 0;
+}
+
+
+#secondBtn
+{
+    padding: 10px 10px 10px 10px;
+    border: 1.5px solid #fff;
+    border-radius: 5px;
+}
+
+.Companys
+{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    gap: 70px;
+    padding-bottom: 50px;
+    border-bottom: 8px solid #a2a1a12d;
+}
+
+.Companys a{
+    text-decoration: none;
+    font-size: 30px;
+    color: #fff;
+    font-weight: 700;
+}
+
+#dribble
+{
+    font-family: "Alex Brush", cursive;
+}
+
+#grammerly img
+{
+    border-radius: 50%;
+}
+
+.howitworks #easy
+{
+    display: flex;
+    justify-content: center;
+    text-align: center;
+    letter-spacing: 2px;
+    padding: 12px 0 0 0;
+}
+
+.howitworks h4
+{
+    display: flex;
+    justify-content: center;
+    text-align: center;
+    font-weight: 700;
+    font-size: 40px;
+}
+
+.content
+{
+    display: flex;
+    justify-content: space-around;
+    border-bottom: 8px solid #a2a1a12d;
+}
+
+.content h6
+{
+    font-weight: 700;
+    font-family: 'Franklin Gothic ', 'Arial Narrow', Arial, sans-serif;
+    font-size: 40px;
+    margin-top: 100px;
+}
+
+.content p 
+{
+    padding-top: 20px;
+}
+
+.content button
+{
+    border: none;
+    background-color: none;
+    margin-bottom: 10px;
+} 
+
+
+.showingOffcontent
+{
+    display: flex;
+    justify-content: space-around;
+    border-bottom: 8px solid #a2a1a12d;
+}
+
+.showingOffcontent h6
+{
+    font-weight: 700;
+    font-family: 'Franklin Gothic ', 'Arial Narrow', Arial, sans-serif;
+    font-size: 40px;
+    margin-top: 100px;
+}
+
+.showingOffcontent p 
+{
+    padding-top: 20px;
+}
+
+
+.showingOffcontent button
+{
+    background: rgb(247,108,103);
+    background: linear-gradient(90deg, rgba(247,108,103,1) 35%, rgba(252,78,136,1) 100%);     
+    margin-bottom: 10px;
+    border: none;
+    padding: 10px 10px 10px 10px ;
+    font-weight: 500;
+    border-radius: 5px;
+} 
+
+.protect
+{
+    display: flex;
+    justify-content: space-around;
+    border-bottom: 8px solid #a2a1a12d;
+}
+
+
+.protect h6
+{
+    font-weight: 700;
+    font-family: 'Franklin Gothic ', 'Arial Narrow', Arial, sans-serif;
+    font-size: 40px;
+    margin-top: 100px;
+}
+
+.protect p 
+{
+    padding-top: 20px;
+}
+
+.protect button
+{
+    background: rgb(247,108,103);
+    background: linear-gradient(90deg, rgba(247,108,103,1) 35%, rgba(252,78,136,1) 100%);     
+    margin-bottom: 10px;
+    border: none;
+    padding: 10px 10px 10px 10px ;
+    font-weight: 500;
+    border-radius: 5px;
+} 
+
+.discuss
+{
+    display: flex;
+    justify-content: space-around;
+    border-bottom: 8px solid #a2a1a12d;
+}
+
+
+.discuss h6
+{
+    font-weight: 700;
+    font-family: 'Franklin Gothic ', 'Arial Narrow', Arial, sans-serif;
+    font-size: 40px;
+    margin-top: 100px;
+}
+
+.discuss p 
+{
+    padding-top: 20px;
+}
+
+.discuss button
+{
+
+    background: rgb(247,108,103);
+    background: linear-gradient(90deg, rgba(247,108,103,1) 35%, rgba(252,78,136,1) 100%);     
+    margin-bottom: 10px;
+    border: none;
+    padding: 10px 10px 10px 10px ;
+    font-weight: 500;
+    border-radius: 5px;
+} 
+
+footer
+{
+    display: flex;
+    justify-content: space-around;
+    padding: 50px 0 0 0;
+}
+
+
+.SfooterWraper
+{
+    display: flex;
+    justify-content: space-evenly;
+    gap: 30px;
+}
+
+.SfooterWraper span
+{
+    display: flex;
+    gap: 70px;
+}
+
+
+.developer p
+{
+   display: flex;
+   justify-content: center;
+   font-weight: 700;
+   padding: 80px 0 0 0;
+}
+
+.coonnect-with_me
+{
+    display: flex
+    ;
+    justify-content: center;
+    gap: 20px;
+}
+/*
+
+.windsong-regular {
+  font-family: "WindSong", cursive;
+  font-weight: 400;
+  font-style: normal;
+}
+
+.windsong-medium {
+  font-family: "WindSong", cursive;
+  font-weight: 500;
+  font-style: normal;
+}
+
+
+.cedarville-cursive-regular {
+  font-family: "Cedarville Cursive", cursive;
+  font-weight: 400;
+  font-style: normal;
+}
+
+.lobster-regular {
+  font-family: "Lobster", sans-serif;
+  font-weight: 400;
+  font-style: normal;
+}
+
+*/
+
+
+@media screen and (max-width: 992px)
+{
+    .Hero-Wraper
+    {
+        display: block;
+        padding: 0;
+    }
+
+    .hero-text-Section
+    {
+        padding: 30px;
+    }
+    .hero-text-Section p
+{
+    padding: 12px 0 12px 0;
+}
+ 
+
+.hero-text-Section h4
+{
+    font-size: 3em;
+}
+
+
+.Hero-Wraper img
+{
+   width: 100%;
+   padding: 80px 0 0 0;
+}
+
+.Companys
+{
+    flex-wrap: wrap;
+    text-wrap: wrap;
+    gap: 10px;
+    padding: 10px;
+}
+
+.Companys a
+{
+    font-size: 15px;
+}
+
+.content
+{
+    display: block;
+    padding: 10px;
+}
+
+.content h6
+{
+    font-size: 20px;
+    margin-top: 50px;
+}
+
+.content img
+{
+    width: 100%;
+}
+
+.content button img
+{
+    width: 20%;
+}
+
+.showingOffcontent button img
+{
+    width: 20%;   
+}
+
+.showingOffcontent
+{
+    display: block;
+    padding: 10px;
+}
+
+.showingOffcontent img
+{
+    width: 100%;
+}
+
+
+.showingOffcontent h6
+{
+    font-size: 20px;
+    margin-top: 20px;
+}
+
+
+
+
+
+.protect button img
+{
+    width: 20%;   
+}
+
+.protect
+{
+    display: block;
+    padding: 10px;
+}
+
+.protect img
+{
+    width: 100%;
+}
+
+
+.protect h6
+{
+    font-size: 20px;
+    margin-top: 20px;
+}
+
+
+
+
+
+.discuss
+{
+    display: block;
+    padding: 10px;
+}
+
+.discuss img
+{
+    width: 100%;
+}
+
+
+.discuss h6
+{
+    font-size: 20px;
+    margin-top: 20px;
+}
+
+footer
+{
+    display: block;
+}
+
+.SfooterWraper
+{
+    display: block;
+    padding: 20px;
+}
+
+.SfooterWraper span
+{
+    display: flex;
+    margin-bottom: 20px;
+    /* padding: 20px; */
+}
+
+.coonnect-with_me
+{
+    gap: 10px;
+}
+}
+
+
+
+
+
+
+
